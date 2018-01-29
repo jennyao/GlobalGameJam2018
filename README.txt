@@ -21,3 +21,14 @@ My game is a visualized video game rendition of the classic finger game of chops
 
 If you never played it before, here's a link on how to play:
 http://www.instructables.com/id/How-to-play-ChopSticks-Finger-Game/
+
+________________________________________________________________________________________________
+
+1.28.2018 4:40pm PST. 
+Game is only just displaying 2 hands. 
+I struggled to get a functioning button that says "Start"
+It's commented out for now.
+This is my submission for #GGJ18
+It's sad but it was also a learning process.
+1.28.2018 4:42pm PST
+commit and push time
