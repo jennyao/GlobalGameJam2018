@@ -87,4 +87,8 @@ while True:
 #hands move down as another pair moves in
 
 #rules
-#if (L2 | L4) BUMP
+#if ((L2 | L4) & DR) | ((R2 | R4) & DL) BUMP
+#	if L2, then display L1 & R1
+#	if L4, then display L2 & R2
+#	if R2, then display L1 & R1
+#	if R4, then display L2 & R2
