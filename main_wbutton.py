@@ -8,7 +8,7 @@ from pygame.locals import *
 pygame.init()
 
 display_width = 1000
-display_height = 700
+display_height = 1000
 
 R1 = pygame.image.load("RH/right1.png")
 R2 = pygame.image.load("RH/right2.png")
@@ -78,13 +78,24 @@ while True:
 			quit()
 	#pygame.display.update()
 
-
-	
 #start
 #L5 R5
-#flicker? into 
-#L1 and R1
-#hands move down as another pair moves in
+#glitchy flicker effect maybe? into 
+#showing 2 pairs of hands facing each other
+#slicing effect with screams, to begin with 1 finger each hand
+
+#NPC Coming Soon
+	#if Easy mode, randomized number of fingers to add
+	#if Hard mode, can think of the rules to think ahead
+#2 player game
+#p1: can either tap p2's L1 or R1 and increment 1 finger on one of their hands.
+#p2: can either tap p1's L1 or R1 to increment 2 or 1, depending on which hand they use
+	#if p2 R2 to p1 R1, then p1 R3
+	#if p2 R2 to p1 L1, then p1 L3
+	#if p2 L1 to p1 R1, then p1 R2
+	#if p2 L1 to p1 L1, then p1 L2
+
+
 
 #rules
 #if ((L2 | L4) & DR) | ((R2 | R4) & DL) BUMP
@@ -92,3 +103,5 @@ while True:
 #	if L4, then display L2 & R2
 #	if R2, then display L1 & R1
 #	if R4, then display L2 & R2
+
+
